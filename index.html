@@ -313,6 +313,150 @@
         </div>
       </section>
       
+      <!-- CALLBACK FORM -->
 
+      <section class="callback-form">
+          <div class="container">
+              <form action="" class="callback-form-container">
+                  <h3 class="callback-form-title">
+                    /Are you minding [a project?]
+                  </h3>
+                  <p class="callback-form-descr">
+                    Leave a request to discuss the task and technical requirements
+                  </p>
+                  <input type="text" class="callback-form-input" placeholder="Name">
+                  <input type="email" class="callback-form-input" placeholder="Email">
+                  <input type="tel" class="callback-form-input" placeholder="Phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                  <input type="submit" class="callback-form-submit accent-btn" value="Discuss the project  —">
+              </form>
+          </div>
+      </section>
+
+      <!-- CALCULATOR -->
+
+      <section class="calculator">
+        <div class="container">
+          <h3 class="calculator-title section-title">
+            Calculate_ the cost of a future project
+          </h3>
+          <p class="calculator-descr">
+            <span>This is an</span>
+            <span class="calculator-descr-accent">approximate</span>
+            <span>calculation.</span>
+          </p>
+          <img src="img/calculator.svg" alt="calculator" class="calculator-icon" />
+          <p class="calculator-text">
+            / The final cost depends on the technical requirements, terms, specifics
+            of your project.
+          </p>
+          
+          <form action="" class="calculator-form">
+                <div class="calculator-form-input">
+                  <lavel for="calculator-form-website-type" class="calculator-form-title">
+                    What should be done: 
+                  </lavel>
+                  <select name="website-type" id="calculator-form-website-type" class="calculator-form-select">
+                    <option value="landing-page">
+                        Landing Page
+                    </option>
+                    <option value="website">
+                        Website
+                    </option>
+                    <option value="cms">
+                        CMS
+                    </option>
+                    <option value="portal" selected>
+                        Portal
+                    </option>
+                    <option value="e-shop">
+                        E-shop
+                    </option>
+                  </select>
+                </div>
+
+                <div class="calculator-form-input">
+                  <lavel for="calculator-form-technologies" class="calculator-form-title">
+                    Choose preferred technologies
+                  </lavel>
+                  <select name="technologies" id="calculator-form-technologies" class="calculator-form-select">
+                    <option value="css">CSS</option>
+                    <option value="html">HTML</option>
+                    <option value="js">JS</option>
+                    <option value="react">React</option>
+                    <option value="angular">Angular</option>
+                    <option value="php">PHP</option>
+                  </select>
+                </div>
+
+                <div class="calculator-form-input">
+                  <label for="" class="calculator-form-title">
+                    Personal account and shopping cart:
+                  </label>
+
+                    <div class="calculator-form-input-radio-container">
+                        <input type="radio" class="calculator-form-input-field" id="calculator-form-input-cart-yes" name="cart-yes">
+                        <label for="calculator-form-input-cart-yes" class="calculator-form-input-label">Yes</label>
+  
+                        <input type="radio" class="calculator-form-input-field" id="calculator-form-input-cart-no" name="cart-no">
+                        <label for="calculator-form-input-cart-no"
+                        class="calculator-form-input-label">No</label>
+                    </div>
+                </div>
+
+                <div class="calculator-form-input">
+                    <label for="" class="calculator-form-title">
+                        Requests reception on your email:
+                    </label>
+                    
+                    <div class="calculator-form-input-radio-container">
+                        <input type="radio" class="calculator-form-input-field" id="calculator-form-input-reception-yes" name="reception-yes">
+                        <label for="calculator-form-input-reception-yes" class="calculator-form-input-label">Yes</label>
+  
+                        <input type="radio" class="calculator-form-input-field" id="calculator-form-input-reception-no" name="reception-no">
+                        <label for="calculator-form-input-reception-no" class="calculator-form-input-label">No</label>
+                    </div>
+                </div>
+
+                <div class="calculator-form-input">
+                    <p class="calculator-form-total">Cost:</p>
+                    <p class="calculator-form-total-cost">300$</p>
+                </div>
+
+                <input type="submit" value="Find out the cost  —" class="accent-btn">
+          </form>
+        </div>
+      </section>
+
+      <!-- FOOTER PAGE -->
+
+      <footer class="footer-page">
+          <div class="container">
+            <div class="footer-page-container">
+
+                <h2 class="footer-page-name">Yevhenii Popov</h2>
+
+                <h3 class="footer-page-profession">Frontend Developer</h3>
+
+                <a href="tel:+38 (050) 505 05 05" class="footer-page-tel">
+                    +38 (050) 505 05 05
+                </a>
+
+                <a href="mailto:yevhenii.popov@gmail.com" class="footer-page-email">
+                    yevhenii.popov@gmail.com
+                </a>
+
+                <div class="footer-page-social-icon">
+
+                    <i class="fab fa-github"></i>
+
+                    <i class="fab fa-linkedin"></i>
+
+                    <i class="fab fa-facebook-square"></i>
+
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+          </div>
+      </footer>
 </body>
 </html>
